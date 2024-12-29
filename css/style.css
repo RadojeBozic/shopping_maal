@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(204, 182, 182);
+}
+
+
+
+/*************************************HEADER**************************/
+
+.container-header {
+    max-width: 70em;
+    margin: 2em auto 0.5em;
+    border: 4px solid #ccc;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(235, 226, 226);
+    padding: 0.785em;
+    
+}
+
+.img-header img  {
+    width: 13em;
+}
+
+
+.img-header  {
+   
+    position: relative;
+}
+
+.img-header:hover::after {
+
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(151, 98, 98, 0.493);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.text-header {
+    color: red;
+    font-size: 1.5em;
+    text-shadow: 4px 4px rgb(214, 184, 184);
+    text-align: center;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+button {
+    padding: 6px 24px;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/*************************************NAVIGATION*************************/
+
+.nav {
+    background-color: #333;
+    margin: 0 0 0.5em;
+    text-align: center;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav ul li {
+    display: inline-block;
+    position: relative;
+}
+.nav ul li a {
+    padding: 0.785em;
+    display: block;
+}
+.nav ul li a:link,
+.nav ul li a:visited {
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover {
+    background-color: rgb(155, 133, 175);
+    color: blue;
+}
+.nav ul li a:active {
+    background-color: red;
+}
+.nav ul li ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 8.75em;
+    background-color: rgba(199, 182, 214, 0.7);
+    color: rgb(87, 87, 231);
+    display: none;
+}
+
+.nav ul li:hover ul{
+    display: block;
+}
+.nav ul li ul li  {
+    display: block;
+}
+
+/*************************************SECTION****************************/
+.container-section {
+        max-width: 70em;
+        margin: 0 auto ;  
+}
+
+
+
+
+
+/*************************************FOOTER*****************************/
+
+.footer {
+    text-align: center;
+}
+
+/*************************************SHOPPING MAAL*****************************/
+
+
+/* body{
+	background-image: url("../img/backgroundimg.png");
+} */
+.section-maal {
+    max-width: 70em;
+    margin: 0 auto ;
+        
+}
+#wrap{
+    width: 300px;
+	margin: auto;  
+}
+
+
+
+#search{
+	background-color: rgba(207, 207 ,209 , 0.5);
+	padding:10px;
+	margin-bottom:30px;
+	border-radius: 15px;
+	border: 1px solid #696969;
+}
+
+
+#search img{
+	max-width: 270px;
+    
+}
+
+#message{
+	background-color: rgba(245, 207, 209, 0.5);
+	border-radius: 15px 15px 15px 15px;
+	text-align: center;
+	border: 1px solid #696969;
+
+}
+
+#result{
+	padding:10px;
+	background-color: rgba(207, 207, 209, 0.5);
+	margin-bottom: 2px;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid #696969;
+
+}
+
+#result img{
+	float: right;
+	max-height: 40px;
+}
