@@ -81,7 +81,7 @@
 
         <!-- Signup From -->
         <div class="form signup_form">
-          <form action="#">
+         <!--  <form action="#">
             <h2>Registruj se</h2>
 
             <div class="input_box">
@@ -102,7 +102,24 @@
             <button class="button">Registruj se</button>
 
             <div class="login_signup">Već imate nalog? <a href="#" id="login">Uloguj se</a></div>
-          </form>
+          </form> -->
+
+          <form action="register.php" method="POST" class="signup_form">
+              <h2>Registracija</h2>
+              <div class="input_box">
+                  <input type="email" name="email" placeholder="Unesite Vaš email" required />
+              </div>
+              <div class="input_box">
+                  <input type="password" name="password" placeholder="Unesite lozinku" required />
+              </div>
+              <div class="input_box">
+                  <input type="password" name="confirm_password" placeholder="Potvrdite lozinku" required />
+              </div>
+              <button type="submit" class="button">Registruj se</button>
+              <div class="login_signup">Već imate nalog? <a href="#" id="login">Uloguj se</a></div>
+
+        </form>
+
 
         </div>
       </div>
