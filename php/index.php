@@ -30,7 +30,7 @@
                 <p>Dolazi do Vas!</p>
             </div>
             <div class="sign-in">
-                <a href="../html&php/index1.php"><button type="button">Registruj se</button></a>
+                <a href="../html&php/index.html"><button type="button">Registruj se</button></a>
             </div>
         </div> <!-- end .header -->
     </div> <!-- end .container-header -->
